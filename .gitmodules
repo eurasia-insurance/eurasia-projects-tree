@@ -1,0 +1,189 @@
+[submodule "esbd/connection"]
+	path = esbd/connection
+	url = https://github.com/eurasia-insurance/esbd-connection.git
+[submodule "esbd/jaxws-client"]
+	path = esbd/jaxws-client
+	url = https://github.com/eurasia-insurance/esbd-jaxws-client.git
+[submodule "esbd/dao"]
+	path = esbd/dao
+	url = https://github.com/eurasia-insurance/esbd-dao.git
+[submodule "esbd/dao-client"]
+	path = esbd/dao-client
+	url = https://github.com/eurasia-insurance/esbd-dao-client.git
+[submodule "esbd/domain"]
+	path = esbd/domain
+	url = https://github.com/eurasia-insurance/esbd-domain.git
+[submodule "oldies/insurance-lib"]
+	path = oldies/insurance-lib
+	url = https://github.com/eurasia-insurance/oldies-insurance-lib.git
+[submodule "oldies/kz-lib"]
+	path = oldies/kz-lib
+	url = https://github.com/eurasia-insurance/oldies-kz-lib.git
+[submodule "oldies/international-lib"]
+	path = oldies/international-lib
+	url = https://github.com/eurasia-insurance/oldies-international-lib.git
+[submodule "oldies/lapsa-lib"]
+	path = oldies/lapsa-lib
+	url = https://github.com/eurasia-insurance/oldies-lapsa-lib.git
+[submodule "calculator/policy"]
+	path = calculator/policy
+	url = https://github.com/eurasia-insurance/calculator-policy.git
+[submodule "patterns/dao"]
+	path = patterns/dao
+	url = https://github.com/eurasia-insurance/patterns-dao.git
+[submodule "patterns/domain"]
+	path = patterns/domain
+	url = https://github.com/eurasia-insurance/patterns-domain.git
+[submodule "maven/general"]
+	path = maven/general
+	url = https://github.com/eurasia-insurance/maven-general.git
+[submodule "java/commons"]
+	path = java/commons
+	url = https://github.com/eurasia-insurance/java-commons.git
+[submodule "java/jaxb-commons"]
+	path = java/jaxb-commons
+	url = https://github.com/eurasia-insurance/java-jaxb-commons.git
+[submodule "payara/bom"]
+	path = payara/bom
+	url = https://github.com/eurasia-insurance/payara-bom.git
+[submodule "payara/jersey-extensions"]
+	path = payara/jersey-extensions
+	url = https://github.com/eurasia-insurance/payara-jersey-extensions.git
+[submodule "payara/hibernate-validation"]
+	path = payara/hibernate-validation
+	url = https://github.com/eurasia-insurance/payara-hibernate-validation.git
+[submodule "lapsa/mail"]
+	path = lapsa/mail
+	url = https://github.com/eurasia-insurance/lapsa-mail.git
+[submodule "lapsa/primefaces"]
+	path = lapsa/primefaces
+	url = https://github.com/eurasia-insurance/lapsa-primefaces.git
+[submodule "lapsa/arquillian-test"]
+	path = lapsa/arquillian-test
+	url = https://github.com/eurasia-insurance/lapsa-arquillian-test.git
+[submodule "lapsa/fontawesome-free-jsf"]
+	path = lapsa/fontawesome-free-jsf
+	url = https://github.com/eurasia-insurance/lapsa-fontawesome-free-jsf.git
+[submodule "lapsa/jms-rpc"]
+	path = lapsa/jms-rpc
+	url = https://github.com/eurasia-insurance/lapsa-jms-rpc.git
+[submodule "lapsa/text"]
+	path = lapsa/text
+	url = https://github.com/eurasia-insurance/lapsa-text.git
+[submodule "javax/cdi-commons"]
+	path = javax/cdi-commons
+	url = https://github.com/eurasia-insurance/javax-cdi-commons.git
+[submodule "javax/faces-commons"]
+	path = javax/faces-commons
+	url = https://github.com/eurasia-insurance/javax-faces-commons.git
+[submodule "javax/rs-commons"]
+	path = javax/rs-commons
+	url = https://github.com/eurasia-insurance/javax-rs-commons.git
+[submodule "javax/jms-commons"]
+	path = javax/jms-commons
+	url = https://github.com/eurasia-insurance/javax-jms-commons.git
+[submodule "javax/jpa-commons"]
+	path = javax/jpa-commons
+	url = https://github.com/eurasia-insurance/javax-jpa-commons.git
+[submodule "javax/validation-commons"]
+	path = javax/validation-commons
+	url = https://github.com/eurasia-insurance/javax-validation-commons.git
+[submodule "javax/javaee-bom"]
+	path = javax/javaee-bom
+	url = https://github.com/eurasia-insurance/javax-javaee-bom.git
+[submodule "eurasia/facade-client"]
+	path = eurasia/facade-client
+	url = https://github.com/eurasia-insurance/eurasia-facade-client.git
+[submodule "eurasia/dao"]
+	path = eurasia/dao
+	url = https://github.com/eurasia-insurance/eurasia-dao.git
+[submodule "eurasia/facade"]
+	path = eurasia/facade
+	url = https://github.com/eurasia-insurance/eurasia-facade.git
+[submodule "eurasia/dao-client"]
+	path = eurasia/dao-client
+	url = https://github.com/eurasia-insurance/eurasia-dao-client.git
+[submodule "eurasia/domain"]
+	path = eurasia/domain
+	url = https://github.com/eurasia-insurance/eurasia-domain.git
+[submodule "eurasia/ws"]
+	path = eurasia/ws
+	url = https://github.com/eurasia-insurance/eurasia-ws.git
+[submodule "eurasia36/notification-templates"]
+	path = eurasia36/notification-templates
+	url = https://github.com/eurasia-insurance/eurasia36-notification-templates.git
+[submodule "insurance/facade-client"]
+	path = insurance/facade-client
+	url = https://github.com/eurasia-insurance/insurance-facade-client.git
+[submodule "insurance/notification-daemon"]
+	path = insurance/notification-daemon
+	url = https://github.com/eurasia-insurance/insurance-notification-daemon.git
+[submodule "insurance/crm"]
+	path = insurance/crm
+	url = https://github.com/eurasia-insurance/insurance-crm.git
+[submodule "insurance/dao"]
+	path = insurance/dao
+	url = https://github.com/eurasia-insurance/insurance-dao.git
+[submodule "insurance/facade"]
+	path = insurance/facade
+	url = https://github.com/eurasia-insurance/insurance-facade.git
+[submodule "insurance/shared"]
+	path = insurance/shared
+	url = https://github.com/eurasia-insurance/insurance-shared.git
+[submodule "insurance/calculation"]
+	path = insurance/calculation
+	url = https://github.com/eurasia-insurance/insurance-calculation.git
+[submodule "insurance/daemon"]
+	path = insurance/daemon
+	url = https://github.com/eurasia-insurance/insurance-daemon.git
+[submodule "insurance/notification-template-client"]
+	path = insurance/notification-template-client
+	url = https://github.com/eurasia-insurance/insurance-notification-template-client.git
+[submodule "insurance/calculation-client"]
+	path = insurance/calculation-client
+	url = https://github.com/eurasia-insurance/insurance-calculation-client.git
+[submodule "insurance/dao-client"]
+	path = insurance/dao-client
+	url = https://github.com/eurasia-insurance/insurance-dao-client.git
+[submodule "insurance/domain"]
+	path = insurance/domain
+	url = https://github.com/eurasia-insurance/insurance-domain.git
+[submodule "insurance/faces"]
+	path = insurance/faces
+	url = https://github.com/eurasia-insurance/insurance-faces.git
+[submodule "insurance/validation"]
+	path = insurance/validation
+	url = https://github.com/eurasia-insurance/insurance-validation.git
+[submodule "insurance/ws"]
+	path = insurance/ws
+	url = https://github.com/eurasia-insurance/insurance-ws.git
+[submodule "epayment/facade-client"]
+	path = epayment/facade-client
+	url = https://github.com/eurasia-insurance/epayment-facade-client.git
+[submodule "epayment/notification-daemon"]
+	path = epayment/notification-daemon
+	url = https://github.com/eurasia-insurance/epayment-notification-daemon.git
+[submodule "epayment/dao"]
+	path = epayment/dao
+	url = https://github.com/eurasia-insurance/epayment-dao.git
+[submodule "epayment/qazkom-commons"]
+	path = epayment/qazkom-commons
+	url = https://github.com/eurasia-insurance/epayment-qazkom-commons.git
+[submodule "epayment/facade"]
+	path = epayment/facade
+	url = https://github.com/eurasia-insurance/epayment-facade.git
+[submodule "epayment/shared"]
+	path = epayment/shared
+	url = https://github.com/eurasia-insurance/epayment-shared.git
+[submodule "epayment/notification-template-client"]
+	path = epayment/notification-template-client
+	url = https://github.com/eurasia-insurance/epayment-notification-template-client.git
+[submodule "epayment/dao-client"]
+	path = epayment/dao-client
+	url = https://github.com/eurasia-insurance/epayment-dao-client.git
+[submodule "epayment/domain"]
+	path = epayment/domain
+	url = https://github.com/eurasia-insurance/epayment-domain.git
+[submodule "epayment/ws"]
+	path = epayment/ws
+	url = https://github.com/eurasia-insurance/epayment-ws.git
