@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>tech.lapsa</groupId>
-	<artifactId>root</artifactId>
+	<artifactId>eurasia36-root</artifactId>
 	<version>CURRENT-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
