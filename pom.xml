@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>tech.lapsa</groupId>
@@ -8,22 +9,35 @@
 	<packaging>pom</packaging>
 
 	<modules>
-	    <module>maven</module>
-	    <module>java</module>
-	    <module>javax</module>
-	    <module>lapsa</module>
-	    <module>payara</module>
-	    <module>patterns</module>
-	    <module>oldies</module>
-	    <module>esbd</module>
-	    <module>epayment</module>
-	    <module>insurance</module>
+		<module>maven</module>
+		<module>java</module>
+		<module>javax</module>
+		<module>lapsa</module>
+		<module>payara</module>
+		<module>patterns</module>
+		<module>oldies</module>
+		<module>esbd</module>
+		<module>epayment</module>
+		<module>insurance</module>
 
-	    <module>eurasia36</module>
+		<module>eurasia36</module>
 
-	    <module>calculator</module>
+		<module>calculator</module>
 
-	    <module>eurasia</module>
+		<module>eurasia</module>
 	</modules>
+
+	<distributionManagement>
+		<repository>
+			<id>release</id>
+			<name>artifactory.lapsa.tech-releases</name>
+			<url>https://artifactory.lapsa.tech/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>artifactory.lapsa.tech-snapshots</name>
+			<url>https://artifactory.lapsa.tech/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>

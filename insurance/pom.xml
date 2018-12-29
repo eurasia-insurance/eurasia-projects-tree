@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>tech.lapsa</groupId>
+		<artifactId>eurasia36-root</artifactId>
+		<version>CURRENT-SNAPSHOT</version>
+	</parent>
 
 	<groupId>tech.lapsa</groupId>
 	<artifactId>insurance</artifactId>
@@ -8,21 +15,21 @@
 	<packaging>pom</packaging>
 
 	<modules>
-	    <module>domain</module>
-	    <module>dao-client</module>
-	    <module>dao</module>
-	    <module>calculation-client</module>
-	    <module>calculation</module>
-	    <module>crm</module>
-	    <module>daemon</module>
-	    <module>facade-client</module>
-	    <module>facade</module>
-	    <module>faces</module>
-	    <module>notification-daemon</module>
-	    <module>notification-template-client</module>
-	    <module>shared</module>
-	    <module>validation</module>
-	    <module>ws</module>
+		<module>domain</module>
+		<module>dao-client</module>
+		<module>dao</module>
+		<module>calculation-client</module>
+		<module>calculation</module>
+		<module>crm</module>
+		<module>daemon</module>
+		<module>facade-client</module>
+		<module>facade</module>
+		<module>faces</module>
+		<module>notification-daemon</module>
+		<module>notification-template-client</module>
+		<module>shared</module>
+		<module>validation</module>
+		<module>ws</module>
 	</modules>
 
 </project>
