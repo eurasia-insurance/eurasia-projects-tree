@@ -187,3 +187,6 @@
 [submodule "epayment/ws"]
 	path = epayment/ws
 	url = https://github.com/eurasia-insurance/epayment-ws.git
+[submodule "docker"]
+	path = docker
+	url = https://github.com/eurasia-insurance/eurasia36-docker.git
