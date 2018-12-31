@@ -193,3 +193,6 @@
 [submodule "eurasia36/deploy"]
 	path = eurasia36/deploy
 	url = https://github.com/eurasia-insurance/eurasia36-deploy.git
+[submodule "eurasia36/web"]
+	path = eurasia36/web
+	url = https://github.com/eurasia-insurance/eurasia36-web.git
