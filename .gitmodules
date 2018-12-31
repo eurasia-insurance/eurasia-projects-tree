@@ -199,3 +199,6 @@
 [submodule "web/payment.eurasia36.kz"]
 	path = web/payment.eurasia36.kz
 	url = https://github.com/eurasia-insurance/epayment-web.git
+[submodule "insurance/bom"]
+	path = insurance/bom
+	url = https://github.com/lapsatech/insurance-bom.git
