@@ -1,0 +1,15 @@
+domain
+dao-client
+dao
+calculation-client
+calculation
+crm
+daemon
+facade-client
+facade
+faces
+notification-daemon
+notification-template-client
+shared
+validation
+ws
