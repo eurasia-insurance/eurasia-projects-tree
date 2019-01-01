@@ -19,6 +19,8 @@
 		<module>international-lib</module>
 		<module>kz-lib</module>
 		<module>lapsa-lib</module>
+		<module>fin-lib</module>
+		<module>reports-lib</module>
 	</modules>
 
 </project>

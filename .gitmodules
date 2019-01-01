@@ -199,3 +199,9 @@
 [submodule "web/payment.eurasia36.kz"]
 	path = web/payment.eurasia36.kz
 	url = https://github.com/eurasia-insurance/epayment-web.git
+[submodule "oldies/reports-lib"]
+	path = oldies/reports-lib
+	url = https://github.com/eurasia-insurance/oldies-reports-lib.git
+[submodule "oldies/fin-lib"]
+	path = oldies/fin-lib
+	url = https://github.com/eurasia-insurance/oldies-fin-lib.git
