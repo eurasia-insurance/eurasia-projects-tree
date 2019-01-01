@@ -14,6 +14,8 @@
 	<version>CURRENT-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<name>Epayment Lib</name>
+
 	<modules>
 		<module>qazkom-commons</module>
 		<module>domain</module>

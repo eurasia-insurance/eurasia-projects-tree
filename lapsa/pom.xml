@@ -14,6 +14,8 @@
 	<version>CURRENT-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<name>Lapsa Lib</name>
+
 	<modules>
 		<module>arquillian-test</module>
 		<module>fontawesome-free-jsf</module>

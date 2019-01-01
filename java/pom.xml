@@ -14,6 +14,8 @@
 	<version>CURRENT-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<name>Java SE Lib</name>
+
 	<modules>
 		<module>commons</module>
 		<module>jaxb-commons</module>

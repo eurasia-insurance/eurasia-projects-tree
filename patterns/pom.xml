@@ -14,6 +14,8 @@
 	<version>CURRENT-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<name>Patterns Lib</name>
+
 	<modules>
 		<module>dao</module>
 		<module>domain</module>

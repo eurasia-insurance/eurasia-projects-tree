@@ -14,6 +14,8 @@
 	<version>CURRENT-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<name>Oldies Lib</name>
+
 	<modules>
 		<module>insurance-lib</module>
 		<module>international-lib</module>

@@ -14,6 +14,8 @@
 	<version>CURRENT-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<name>Eurasia36 Lib</name>
+
 	<modules>
 		<module>notification-templates</module>
 		<module>deploy</module>

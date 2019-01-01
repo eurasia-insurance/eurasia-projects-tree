@@ -8,6 +8,8 @@
 	<version>CURRENT-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<name>Eurasia36.KZ Lib</name>
+
 	<modules>
 		<module>java</module>
 		<module>javax</module>
