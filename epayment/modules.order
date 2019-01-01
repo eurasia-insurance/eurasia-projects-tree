@@ -1,0 +1,10 @@
+qazkom-commons
+domain
+dao-client
+dao
+facade-client
+facade
+shared
+ws
+notification-daemon
+notification-template-client
