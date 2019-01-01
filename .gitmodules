@@ -34,9 +34,6 @@
 [submodule "patterns/domain"]
 	path = patterns/domain
 	url = https://github.com/eurasia-insurance/patterns-domain.git
-[submodule "maven/general"]
-	path = maven/general
-	url = https://github.com/eurasia-insurance/maven-general.git
 [submodule "java/commons"]
 	path = java/commons
 	url = https://github.com/eurasia-insurance/java-commons.git

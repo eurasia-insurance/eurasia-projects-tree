@@ -9,7 +9,6 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>maven</module>
 		<module>java</module>
 		<module>javax</module>
 		<module>lapsa</module>
