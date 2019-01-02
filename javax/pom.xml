@@ -16,9 +16,9 @@
 	<name>Jave EE Lib</name>
 
 	<modules>
+		<module>javaee-bom</module>
 		<module>cdi-commons</module>
 		<module>faces-commons</module>
-		<module>javaee-bom</module>
 		<module>jms-commons</module>
 		<module>jpa-commons</module>
 		<module>rs-commons</module>
