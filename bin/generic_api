@@ -1,0 +1,26 @@
+#!/bin/bash
+
+release_api_name="Generic API"
+
+before_release() {
+	true
+}
+
+do_release() {
+	sed -e "s/CURRENT-SNAPSHOT/$rel_ver/g" -i "" version && \
+		git diff && \
+		git add version && \
+		git commit -m "[generic-release] prepare release $rel_tag" && \
+		git tag $rel_tag -m "[generic-release] copy for tag $rel_tag" && \
+		\
+		sed -e "s/$rel_ver/CURRENT-SNAPSHOT/g" -i "" version && \
+		git diff && \
+		git add version && \
+		git commit -m "[generic-release] prepare for next development iteration" && \
+		\
+		git push origin $rel_branch $rel_tag
+}
+
+after_release() {
+	true
+}
