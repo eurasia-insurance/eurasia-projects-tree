@@ -205,3 +205,6 @@
 [submodule "calculator/deploy"]
 	path = calculator/deploy
 	url = https://github.com/eurasia-insurance/calculator-deploy.git
+[submodule "eurasia/deploy"]
+	path = eurasia/deploy
+	url = https://github.com/eurasia-insurance/eurasia-deploy.git
