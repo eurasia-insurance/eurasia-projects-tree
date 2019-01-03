@@ -202,3 +202,6 @@
 [submodule "oldies/fin-lib"]
 	path = oldies/fin-lib
 	url = https://github.com/eurasia-insurance/oldies-fin-lib.git
+[submodule "calculator/deploy"]
+	path = calculator/deploy
+	url = https://github.com/eurasia-insurance/calculator-deploy.git

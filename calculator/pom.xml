@@ -17,6 +17,7 @@
 
 	<modules>
 		<module>policy</module>
+		<module>deploy</module>
 	</modules>
 
 </project>
