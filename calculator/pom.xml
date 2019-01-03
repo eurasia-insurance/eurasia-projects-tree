@@ -16,7 +16,7 @@
 	<name>Calculator Lib</name>
 
 	<modules>
-		<module>policy</module>
+		<module>webapp</module>
 		<module>deploy</module>
 	</modules>
 
