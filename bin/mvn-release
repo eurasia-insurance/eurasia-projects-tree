@@ -1,0 +1,9 @@
+#!/bin/bash
+
+script_dir=$(cd "$(dirname "$0")"; pwd -P)
+echo $script_dir
+
+rel_ver="$1"
+test -z "$rel_ver" && { echo "Usage: $(basename $0) RELEASE_VERSION"; exit 1; }
+
+mvn exec:exec -Dexec.executable=bash -Dexec.args="-c '$script_dir/release $rel_ver'"
