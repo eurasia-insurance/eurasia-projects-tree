@@ -26,7 +26,7 @@
 	path = oldies/lapsa-lib
 	url = https://github.com/eurasia-insurance/oldies-lapsa-lib.git
 [submodule "calculator/policy"]
-	path = calculator/policy
+	path = calculator/webapp
 	url = https://github.com/eurasia-insurance/calculator-policy.git
 [submodule "patterns/dao"]
 	path = patterns/dao
