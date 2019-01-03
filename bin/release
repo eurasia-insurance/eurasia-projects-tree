@@ -1,0 +1,45 @@
+#!/bin/bash
+
+module=$(basename $(pwd))
+
+test -f .release-skip && { echo "$module: Skipping"; exit 0; }
+test -f pom.xml || { echo "$module: Should be maven project. Skipped."; exit 0; }
+test -e .git || { echo "$module: Should be GIT root. Skipped."; exit 0; }
+git diff-index --quiet HEAD || { echo "$module: Uncommited changes. Terminate"; exit 1; }
+
+rel_ver="$1"
+test -z "$rel_ver" && { echo "$module: Usage $(basename $0) RELEASE_VERSION"; exit 1; }
+rel_branch=release/$rel_ver
+rel_tag=v$rel_ver
+
+cur_branch=$(git rev-parse --abbrev-ref HEAD)
+
+echo "$module: BEGIN" && \
+	\
+	git checkout -b $rel_branch && \
+	sed -e "s/\.version>CURRENT-SNAPSHOT<\//\.version>$rel_ver<\//g" -i "" pom.xml && \
+	git diff && \
+	git add pom.xml && \
+	{ git diff-index --quiet HEAD || git commit -m "[release $rel_ver] Dependencies pre-release updated"; } && \
+	\
+	mvn release:prepare -DdevelopmentVersion=CURRENT-SNAPSHOT -DreleaseVersion=$rel_ver -DupdateDependencies=false -Darguments="-Dsign=true" --batch-mode && \
+	mvn release:perform -DskipTests -Darguments=-DskipTests && \
+	\
+	sed -e "s/\.version>$rel_ver<\//\.version>CURRENT-SNAPSHOT<\//g" -i "" pom.xml && \
+	git diff && \
+	git add pom.xml && \
+	{ git diff-index --quiet HEAD || git commit -m "[release $rel_ver] Dependencies post-release updated"; } && \
+	\
+	git checkout $cur_branch && \
+	git merge --no-ff --no-edit $rel_branch && \
+	git push origin $cur_branch && \
+	git branch -d $rel_branch && \
+	\
+	git push --delete origin $rel_branch && \
+	\
+	git tag -f LATEST $rel_tag && \
+	git push -f origin LATEST && \
+	git checkout LATEST && \
+	\
+	echo "$module: DONE"
+
