@@ -8,7 +8,7 @@
 		<version>20190102</version>
 	</parent>
 
-	<groupId>tech.lapsa</groupId>
+	<groupId>tech.lapsa.eurasia-projects-tree</groupId>
 	<artifactId>epayment</artifactId>
 	<version>CURRENT-SNAPSHOT</version>
 	<packaging>pom</packaging>
