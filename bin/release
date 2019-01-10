@@ -6,7 +6,7 @@ script_dir=$(cd "$(dirname "$0")"; pwd -P)
 test -f .release-skip && { echo "$module: Skipping"; exit 0; }
 test -f pom.xml -o -f version || { echo "$module: Should be Maven or Generic project. Skipped."; exit 0; }
 test -e .git || { echo "$module: Should be GIT root. Skipped."; exit 0; }
-git diff-index --quiet HEAD || { echo "$module: Uncommited changes. Terminate"; exit 1; }
+test -z `git status -s` || { git status; echo "$module: Uncommited changes. Terminate"; exit 1; }
 
 rel_ver="$1"
 test -z "$rel_ver" && { echo "$module: Usage $(basename $0) RELEASE_VERSION"; exit 1; }
