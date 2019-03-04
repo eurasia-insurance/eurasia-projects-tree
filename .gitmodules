@@ -208,3 +208,6 @@
 [submodule "eurasia/deploy"]
 	path = eurasia/deploy
 	url = https://github.com/eurasia-insurance/eurasia-deploy.git
+[submodule "documentor"]
+	path = documentor
+	url = https://github.com/eurasia-insurance/eurasia-documentor.git
